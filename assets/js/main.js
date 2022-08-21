@@ -317,7 +317,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   $( "#box-container > div" ).hover(
     function() {
-      
       change_main(parseInt($( this ).attr('id')));
       $( this ).addClass( "hover" );
     }, function() {

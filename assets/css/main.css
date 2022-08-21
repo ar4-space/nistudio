@@ -2025,6 +2025,7 @@ section {
 .hero .icon-box .title {
   font-weight: 700;
   margin-bottom: 15px;
+  transition: all .2s ease-in-out;
   font-size: 24px;
 }
 
@@ -2040,16 +2041,18 @@ section {
   transition: all 0.3s ease-in-out;
   font-size: 48px;
   line-height: 1;
+  transition: all .2s ease-in-out;
   color: #F25722;
 }
 
 .hero .icon-box:hover {
-  background: #000000;
+  transform: scale(1.1);
+ 
 }
 
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
-  color:#ffffff;
+  
 }
 
 /*--------------------------------------------------------------
