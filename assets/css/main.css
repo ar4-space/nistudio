@@ -1915,7 +1915,10 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
+ 
+    /*added here*/
+    background:url("/assets/img/pattern.png") transparent  repeat center center;
+    /*added here*/
   padding: 60px 0 0 0;
 }
 

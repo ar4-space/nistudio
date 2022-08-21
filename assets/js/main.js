@@ -288,5 +288,41 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', () => {
     aos_init();
   });
+  function change_main(box_id=0){
+    var title_arr = ['New interactive Studio',
+    'Process Intelligence',
+    'High Performace',
+    'Punctuality',
+    'Tazmeen System'];
+    var par_arr = ['NiS seizes one of the top ranks among rival companies, which work in the industry field of dubbing in the Arab world, simply due to its distinguished quality of output, compliance with the deadline for delivery and competing prices.',
+    'Hey1',
+    'Hey2',
+    'Hey3',
+    'Hey4'];
+    var img_arr = ['nis-logo.png',
+    'time.svg'
+    ,'time.svg',
+    'time.svg',
+    'time.svg'];
+    $("#main-title,#main-paragraph,#main-img").fadeOut(400, function() {
+      $("#main-title").text(title_arr[box_id]).fadeIn(400);
+      $("#main-paragraph").text(par_arr[box_id]).fadeIn(400);
+      $("#main-img").html('<img  src="assets/img/undraw/'+img_arr[box_id]+'" class="img-fluid mx-auto d-block" style="height:300px;" alt="" data-aos="fade-left" data-aos-delay="100">').fadeIn(400);
+    
 
+  });
+
+   
+   
+  }
+  $( "#box-container > div" ).hover(
+    function() {
+      
+      change_main(parseInt($( this ).attr('id')));
+      $( this ).addClass( "hover" );
+    }, function() {
+      change_main();
+      $( this ).removeClass( "hover" );
+    }
+  );
 });
