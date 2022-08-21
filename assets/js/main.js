@@ -301,8 +301,9 @@ document.addEventListener('DOMContentLoaded', () => {
     'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'];
     var img_arr = ['nis-logo.png',
     'intelligence.svg',
-    'time.svg',
     'performance.svg',
+    'time.svg',
+    
     'tazmeen_white.png'];
     $("#main-title,#main-paragraph,#main-img").fadeOut(400, function() {
       $("#main-title").text(title_arr[box_id]).fadeIn(400);
