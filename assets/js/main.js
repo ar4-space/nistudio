@@ -295,15 +295,15 @@ document.addEventListener('DOMContentLoaded', () => {
     'Punctuality',
     'Tazmeen System'];
     var par_arr = ['NiS seizes one of the top ranks among rival companies, which work in the industry field of dubbing in the Arab world, simply due to its distinguished quality of output, compliance with the deadline for delivery and competing prices.',
-    'Hey1',
-    'Hey2',
-    'Hey3',
-    'Hey4'];
+    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.'];
     var img_arr = ['nis-logo.png',
-    'time.svg'
-    ,'time.svg',
+    'intelligence.svg',
     'time.svg',
-    'time.svg'];
+    'performance.svg',
+    'tazmeen_white.png'];
     $("#main-title,#main-paragraph,#main-img").fadeOut(400, function() {
       $("#main-title").text(title_arr[box_id]).fadeIn(400);
       $("#main-paragraph").text(par_arr[box_id]).fadeIn(400);
