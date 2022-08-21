@@ -316,12 +316,17 @@ document.addEventListener('DOMContentLoaded', () => {
    
    
   }
+  $( "#box-container > div" ).click(function(){
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  });
   $( "#box-container > div" ).hover(
     function() {
       change_main(parseInt($( this ).attr('id')));
+     
       $( this ).addClass( "hover" );
     }, function() {
       change_main();
+      
       $( this ).removeClass( "hover" );
     }
   );
